@@ -15,12 +15,13 @@ $surname = $resultArray["surname"];
 $name = $resultArray['name'];
 $patronymic = $resultArray['patronymic'];
 
-getFullnameFromParts($surname, $name, $patronymic);
+var_dump(getFullnameFromParts($surname, $name, $patronymic));
 
 // //task-2
 
 $full_name = $example_persons_array[2]['fullname'];
-getShortName($full_name);
+$shortName = getShortName($full_name);
+echo "\n$shortName\n";
 
 // //task-3
 
@@ -28,7 +29,5 @@ $full_name = $example_persons_array[3]['fullname'];
 echo getGenderFromName($full_name); 
 
 //task-4
-
-getGenderDescription($example_persons_array);
-
+echo getGenderDescription($example_persons_array);
 ?>

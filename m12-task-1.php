@@ -13,7 +13,6 @@ $full_name_from_parts .= ' ';
 $full_name_from_parts .= $name;
 $full_name_from_parts .= ' ';
 $full_name_from_parts .= $patronymic;
-var_dump($full_name_from_parts);
 return $full_name_from_parts;
 }
 

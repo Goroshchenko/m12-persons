@@ -16,8 +16,7 @@ $malesPercentage = round((count($males)/count($example_persons_array))*100);
 $femalesPercentage = round((count($females)/count($example_persons_array))*100);
 $unknownPercentage = round((count($unknown)/count($example_persons_array))*100);
 
-echo "
-
+return  "
 Гендерный состав аудитории:
 --------------------------------
 Мужчины - $malesPercentage %
